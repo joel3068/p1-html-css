@@ -28,31 +28,20 @@ a {
     color: #8A2BE2;
     text-decoration: none;
 }
-css
+
 header {
-    width: 100vw;
+    width: 100%;
     height: 33vh; 
-    background-image: url('jouw-afbeelding-url.jpg');
+    background-image: url('img/360_F_88981880_YjJManMJ6hJmKr5CZteFJAkEzXIh8mxW.jpg'); 
+    background-image: top;
     background-size: cover;
-    background-position: center;
+    background-position: 200%; 
     background-repeat: no-repeat;
+    
+   
+  
 }
 
 header h1, header p {
-    color: azure; 
+    color: black; 
 }
-
-img {
-    width: 50vw; /* Breedte van de helft van het scherm */
-}
-
-
-```css
-article {
-    border: 2px solid #0000ff /* Kies een kleur */
-    border radius: 15px; /* Maak de border rond */
-    border-left-width: 4px; 
-    
-}
-
-border radius 15px; /* Maak de border rond */
