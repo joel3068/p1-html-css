@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+.imgBackground {
+  width: 100%;
+}
+
+h1{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top: 70%;
+  color: rgb(252, 252, 252);
+  font-size: 60px;
+  text-align: center;
+  font-size: 700%;
+}
+
+h2{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top: 80%;
+  color: rgb(252, 252, 252);
+   font-size: 600%;
+}
+  
+.klasse1 {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-20%);
+  width: 600px;
+  height: 400px;
+  
+}
+
+.klasse2 {
+  position: absolute;
+  right: 10%;
+  top: 60%;
+  transform: translateY(-20%);
+  width: 300px;
+  height: 300px;
+  
+}
+
+.klasse3 {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-20%);
+  width: 300px;
+  height: 150px;
+  
+}
+
+.klasse4 {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  transform: translateY(-20%);
+  width: 420px;
+  height: 270px;
+  
+}
+
+.tekst1 {
+color: black;
+margin-top: -350px;
+
+}
+
+.tekst2 {
+  color: black;
+  margin-top: -350px;
+  top: 90%;
+position: absolute;
+font-size: 50px;
+left: 70%;
+transform: translateX(-145%);
+
+}
+
+.tekst3 {
+color: black;
+top: 60%;
+position: absolute;
+font-size: 20px;
+left: 70%;
+transform: translateX(-50%);
+
+}
+
+.html-tekst {
+  color: blue; 
+  margin-top: -350px;
+  top: 90%;
+position: absolute;
+font-size: 50px;
+left: 70%;
+transform: translateX(-45%);
+}
+
+.css-tekst {
+  color: orange; 
+  margin-top: -350px;
+  top: 90%;
+position: absolute;
+font-size: 50px;
+left: 70%;
+transform: translateX(75%);
+}
+
+.tekst4{
+  color: rgb(255, 255, 255);
+  margin-top: -350px;
+
+}
+
+.watis-tekst1{
+  color: rgb(255, 255, 255); 
+  margin-top: -350px;
+  top: 90%;
+position: absolute;
+font-size: 50px;
+left: -2%;
+transform: translateX(75%);
+
+
+}
+
+.javascript{
+  color: rgb(255, 230, 0); 
+  margin-top: -350px;
+  top: 90%;
+position: absolute;
+font-size: 50px;
+left: 4%;
+transform: translateX(75%);
+
+}
+
+.tekst5{
+  color: rgb(255, 255, 255);
+top: 55%;
+position: absolute;
+font-size: 20px;
+left: 70%;
+transform: translateX(-210%);
+}
+
+.tekst6{
+  color: rgb(255, 255, 255);
+  top: 75%;
+  position: absolute;
+  font-size: 20px;
+  left: 70%;
+  transform: translateX(-210%);
+}
+
+.tekst7{
+  color: black;
+margin-top: -350px;
+}
+.watis-tekst2{
+  color: rgb(0, 0, 0); 
+  margin-top: -350px;
+  top: 90%;
+position: absolute;
+font-size: 50px;
+left: 60%;
+transform: translateX(-45%);
+  
+}
+.php{
+  color: rgb(132, 92, 255); 
+  margin-top: -350px;
+  top: 90%;
+position: absolute;
+font-size: 50px;
+left: 60%;
+transform: translateX(75%);
+
+}
+.tekst8{
+  color: black;
+  top: 60%;
+  position: absolute;
+  font-size: 20px;
+  left: 70%;
+  transform: translateX(-50%);
+}
+
+.tekst9{
+
+  color: black;
+top: 80%;
+position: absolute;
+font-size: 20px;
+left: 70%;
+transform: translateX(-50%);
+}
+.tekst10{
+    color: rgb(255, 255, 255);
+  margin-top: -350px;
+}
+.watis-tekst3{
+  color: rgb(255, 255, 255); 
+  margin-top: -350px;
+  top: 90%;
+position: absolute;
+font-size: 50px;
+left: -2%;
+transform: translateX(75%);
+}
+.sql{
+  color: rgb(255, 145, 0); 
+  margin-top: -350px;
+  top: 90%;
+position: absolute;
+font-size: 50px;
+left: 14%;
+transform: translateX(75%);
+}
+.tekst11{
+  color: rgb(255, 255, 255);
+  top: 55%;
+  position: absolute;
+  font-size: 20px;
+  left: 70%;
+  transform: translateX(-210%);
+}
+.site-footer {
+  top: 20%;
+  display: flex;
+  width: 100%;
+  min-height: 10vh;
+  margin: auto;
+  background: #00a8c7;
+  
+}
+.tekst12{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 170%;
+  top: 116%;
+}
+.tekst13{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 170%;
+  top: 134%;
+}
+.logo{
+left: 0%;
+position: absolute;
+}
+
