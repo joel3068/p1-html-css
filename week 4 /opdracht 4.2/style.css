@@ -1,0 +1,58 @@
+
+
+h1 {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+    color: #008080; 
+    font-weight: bold;
+}
+
+.tekst1 {
+    color: #4D4D4D;
+    font-weight: bold;
+}
+
+a {
+    color: #8A2BE2;
+    text-decoration: none;
+}
+css
+header {
+    width: 100vw;
+    height: 33vh; 
+    background-image: url('jouw-afbeelding-url.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header h1, header p {
+    color: azure; 
+}
+
+img {
+    width: 50vw; /* Breedte van de helft van het scherm */
+}
+
+
+```css
+article {
+    border: 2px solid #0000ff /* Kies een kleur */
+    border radius: 15px; /* Maak de border rond */
+    border-left-width: 4px; 
+    
+}
+
+border radius 15px; /* Maak de border rond */
