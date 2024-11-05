@@ -37,11 +37,41 @@ header {
     background-size: cover;
     background-position: 200%; 
     background-repeat: no-repeat;
-    
-   
-  
 }
 
 header h1, header p {
     color: black; 
+}
+.img1{
+    width: 50vw;
+    display: block; 
+    margin: 0 auto; 
+}
+.img2{
+    width: 50vw;
+    display: block; 
+    margin: 0 auto; 
+}
+.img3{
+    width: 50vw;
+    display: block; 
+    margin: 0 auto; 
+}
+.img4{
+    width: 50vw;
+    display: block; 
+    margin: 0 auto; 
+}
+.img5{
+    width: 50vw;
+    display: block; 
+    margin: 0 auto; 
+}
+article {
+        border: 2px solid #jouw-kleur; /* Kies een kleur */
+        border-radius: 15px; /* Maak de border rond */
+        border-left-width: 4px; /* Dikkere lijn aan de linkerkant */
+        padding: 10px; /* Voeg wat padding toe voor de inhoud */
+        margin: 10px 0; /* Voeg wat marge toe tussen de artikelen */
+
 }
