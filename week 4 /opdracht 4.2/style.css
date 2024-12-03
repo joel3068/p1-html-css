@@ -30,30 +30,30 @@ a {
 }
 
 header {
-    width: 100vw; /* Volledige breedte van het scherm */
-    height: 33vh; /* Minimaal 1/3 van de hoogte van het scherm */
-    background-image: url('jouw-afbeelding-url.jpg'); /* Voeg hier je afbeelding toe */
-    background-size: cover; /* Zorg dat de afbeelding de volledige breedte en hoogte bedekt */
-    background-repeat: no-repeat; /* Geen herhaling van de afbeelding */
-    background-position: center; /* Gecentreerde afbeelding */
+    width: 100vw; 
+    height: 33vh; 
+    background-image: url('jouw-afbeelding-url.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
 }
 header h1 {
-    color: #ffffff; /* Kies een kleur die contrasteert met de achtergrond */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Eventueel schaduw toevoegen voor betere leesbaarheid */
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
 }
 
 header p {
-    color: #f0f0f0; /* Ook hier een contrasterende kleur */
+    color: #f0f0f0; 
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 img {
-    width: 50vw; /* Breedte is de helft van het scherm */
-    height: auto; /* Zorg dat de hoogte automatisch wordt aangepast */
+    width: 50vw; 
+    height: auto; 
 }
 article {
-    border: 3px solid #000; /* Standaard border */
-    border-left-width: 6px; /* Dikkere linkerzijde */
-    border-radius: 10px; /* Ronde border */
-    padding: 10px; /* Voeg wat ruimte binnen de artikelen toe */
-    margin: 10px 0; /* Ruimte tussen de artikelen */
+    border: 3px solid #000;
+    border-left-width: 6px; 
+    border-radius: 10px;
+    padding: 10px; 
+    margin: 10px 0; 
 }
